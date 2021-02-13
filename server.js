@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 //Mongo connect
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/googlebook',
+  process.env.MONGODB_URI || 'mongodb://localhost/googlebooks',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -29,10 +29,6 @@ mongoose.connect(
 // Link API Routes here
 app.use(routes)
 
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
 
 app.listen(PORT, () => {
   console.log("🚀  Server server now on port", PORT, "👻 React App on Port 3000");
