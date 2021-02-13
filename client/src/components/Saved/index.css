@@ -1,0 +1,35 @@
+.card {
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.ptitle {
+    margin-left: 20px;
+    font-size: 23px;
+}
+
+.pauthors {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.pone {
+    margin-top: 5px;
+}
+
+.ptwo {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.pthree {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.rowtwo {
+    margin-top: 20px;
+}
